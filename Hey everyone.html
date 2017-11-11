@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+			<style>
+
+
+				h1 {
+					color: pink;
+				}
+
+				h2{
+					color: rgb(255, 204, 204);
+				}
+				/* formatting the headings on recipes page */
+				h3 {
+					background-color: rgb(255, 204, 204);
+					color: white;
+					font-family: 'Gentium Basic',serif;
+    				font-style: italic;
+    				text-transform: lowercase;
+    				text-align: center;
+    				letter-spacing: 1px;
+				}
+				img{
+			
+					max-height: 250px;
+					height: auto;
+					width: auto;
+			
+				}
+
+				p{
+				    color: #000;
+				    font-family: 'Gentium Basic',serif;
+				    font-size: 18px;
+				    font-weight: 400;
+				    line-height: 1.625;
+				    -webkit-font-smoothing: antialiased;
+				}
+
+				/*This is an id selector - you want to change the formatting for just ONE header. ID has to be unique for ONE tag */
+				#Restaurantheader {
+					text-align: center;
+					color: grey;
+				}
+
+				button {
+			    background-color: rgb(246, 209, 85); /* yellow */
+			    border: none;
+			    color: white;
+			    padding: 15px 32px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" datatoggle="collapse" data-target="#navbar" aria-expanded="false" ariacontrols="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Awesome Project</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#Restaurantheader">Restaurant Reviews</a></li>
+<li><a href="#features">Features</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+		<h1> The Pretty Palate </h1>
+
+
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+			<div class="item active">
+		<img src="https://cdn.trendhunterstatic.com/thumbs/cecille-david.jpeg">
+			</div>
+			<div class="item">
+			<img src=" https://cdn.fstoppers.com/styles/full/s3/lead/2016/04/hein_tonder_fstoppers_food_photography_delicious_culinary_art_7.jpg">
+			</div>
+			</div>
+			</div>
+
+
+
+		<h2> About </h2>
+			<strong> I like to cook and feed people </strong> <br>
+			<small> I always get asked for my recipes </small> <br>
+			<em> I make three course meals seven  times a week </em> <br>
+			<span style="color:green"> I like to eat and talk about what I eat </span> 
+
+
+
+		<h2> Recipes </h2>
+		<div>
+			<h3> Sweet </h3> 
+				<ul>
+				<li> <a href="https://google.com" target="_blank" > Green curry </a> </li>
+				<li> <a href="https://google.com" target="_blank" > Easy Tex mex casserole  </a> </li>
+				<li> <a href="https://google.com" target="_blank" > Creamy Butternut Squash Soup  </a> </li>
+				</ul>
+		</div>
+
+		<div>
+			<h3> Savoury </h3> 
+				<ol>
+				<li> <a href="https://google.com" target="_blank" > Home made ice cream </a> </li>
+				<li> <a href="https://google.com" target="_blank" >Nutty Banana Bread  </a> </li>
+				<li> <a href="https://google.com" target="_blank" >Zuchinni Cake  </a> </li>
+				</ol>
+		</div>
+
+
+		<h2 id="Restaurantheader"> Restaurant Reviews </h2>
+		<p> I like to eat and talk about what I eat </p>
+			
+
+		<h2> Travel Itineraries </h2>
+			<div class="container">
+				<div class="row">
+				<div class="col-md-4">  Thailand </div>
+				<div class="col-md-4">South Africa</div>
+				<div class="col-md-4">Hawaii</div>
+				<div class="col-md-4">Paris</div>
+				<div class="col-md-4">Cost Rica</div>
+				<div class="col-md-4">London</div>
+				<div class="col-md-4">Banff</div>
+
+
+				</div>
+			</div>
+
+			<br>
+
+			<button type="button" onclick="document.getElementById('myParagraph').innerHTML='Hello World'" >Click Here!</button>
+			<p id="myParagraph">  </p>
+
+			<button type="button" onclick="applyStyling()"> Make it pretty! </button>
+
+			<p id="prettyParagraph"> Whats this going to look like </p>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+
+			<script src="desktop/IntroWebDev.js"></script>
+
+
+			
+
+	</body>
+</html>

@@ -1,0 +1,15 @@
+
+
+$(document).ready(function applyStyling() {
+	var paragraph = document.getElementById("prettyParagraph");
+	paragraph.style.color = "green";
+	paragraph.style.fontSize = "29px";
+	paragraph.style.fontWeight = "700";
+			}
+
+$(document).ready(function() {
+$("#myCarousel").carousel({interval: 1000});
+});
+
+
+
